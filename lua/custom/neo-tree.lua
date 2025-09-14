@@ -14,11 +14,16 @@ return {
         position = "left",
         width = 50,
       },
+      sources = {
+        "filesystem",
+        "document_symbols",
+      },
       source_selector = {
         winbar = true,
         statusbar = false,
         sources = {
           { source = "filesystem" },
+          { source = "document_symbols" },
         },
       },
       filesystem = {
